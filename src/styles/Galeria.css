@@ -1,0 +1,57 @@
+.home {
+  padding: 2rem;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  overflow-y: hidden; /* Scroll oculto por defecto */
+  max-height: calc(100vh - 150px);
+  padding: 20px;
+}
+
+.car-grid:hover {
+  overflow-y: auto; /* Scroll visible al pasar el mouse */
+}
+
+/* Personalización del scroll (opcional) */
+.car-grid::-webkit-scrollbar {
+  width: 8px;
+}
+
+.car-grid::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.car-grid::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.car-grid::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.card {
+  background-color: #61dafb;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}

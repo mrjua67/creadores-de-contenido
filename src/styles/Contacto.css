@@ -1,0 +1,181 @@
+/* Estilo base para la fuente y contenedor */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    overflow: hidden; /* Evita el scroll */
+    height: 100vh; /* Asegura que la altura del body no exceda la vista */
+  }
+  
+  /* Contenedor principal */
+  .contact-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: auto; /* Permite que el contenido se desplace en el contenedor */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #333;
+  }
+  /* Asegúrate de tener un contenedor para todo el contenido */
+div {
+    margin-top: 12px; /* Ajusta este valor a lo que necesites */
+}
+  
+  /* Títulos */
+  .title, .subtitle, .section-title {
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Sección de contenido personal */
+  .about-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-list li {
+    margin-bottom: 15px;
+  }
+  
+  /* Sección de contacto horizontal (Imagen + texto) */
+  .contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /*gap: 20px; /* Ajusta el espacio entre la imagen y el texto */
+    margin-top:  30px;
+  }
+  
+/* Contenedor de la imagen GIF */
+.gif-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Imagen del GIF */
+.gif-image {
+    height: 300px;
+    width: 400px;
+}
+
+  /* Texto junto con la imagen */
+  .text-container {
+    flex: 1 ; /* Controla el tamaño del texto en la fila */
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Contenedor del texto */
+.text-container {
+    flex: 1;
+    padding-left: 20px;
+}
+  
+  .text-container h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+  }
+  
+  .text-container h3 {
+    font-size: 1.4em;
+    color: #555;
+  }
+  
+  /* Enlaces sociales */
+  .social-links a {
+    margin-left: 20px;
+  }
+  
+  .social-links img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Ajuste para el contador de vistas del perfil */
+  .profile-views {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Separador */
+  hr {
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Ajuste general para mantener el contenido visible sin desbordar */
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  h1, h3, h4 {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de las imágenes dentro de los contenedores de redes sociales */
+  .social-links img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.1);
+  }
+  /* Lista de About Me */
+.about-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+}
+
+/* Enlaces sociales */
+.social-links a {
+    margin-left: 10px;
+}
+
+.social-links img {
+    height: 40px;
+    width: 40px;
+}
+
+/* Asegura que las imágenes se vean bien */
+img {
+    max-width: 100%;
+    height: auto;
+}

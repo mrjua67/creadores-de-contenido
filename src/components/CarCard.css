@@ -1,0 +1,73 @@
+.car-card {
+  width: 200px;
+  height: auto; /* Permite que la tarjeta se ajuste según el contenido */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden; /* Asegura que no se desborde el contenido */
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos estén en columna */
+}
+
+/* Estilo para la lista */
+.car-card ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+  max-height: 150px; /* Controla la altura máxima de la lista */
+  overflow-y: auto; /* Agrega barra de desplazamiento si el contenido excede */
+}
+
+/* Efecto hover */
+.car-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.car-image {
+  width: 100%;
+  height: 200px; /* Controla la altura */
+  object-fit: cover; /* Ajusta la imagen para que no se deforme */
+}
+
+.car-details {
+  padding: 16px;
+}
+
+.car-details h2 {
+  margin: 8px 0;
+}
+
+.car-details p {
+  margin: 4px 0;
+}
+.home {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.car-grid {
+  list-style-type: none; /* Elimina los puntos */
+  padding: 0; /* Elimina el espacio adicional */
+  margin: 0; /* Elimina el margen adicional */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.car-card img {
+  width: 100%; /* Ajusta al tamaño del contenedor */
+  max-width: 300px; /* Tamaño máximo de la imagen */
+  height: auto; /* Mantiene las proporciones de la imagen */
+  object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+}
+ul {
+  list-style-type: none; /* Elimina los puntos */
+  padding: 0;
+  margin: 0;
+}
