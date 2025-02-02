@@ -5,8 +5,8 @@ const Inicio =()=>{
     return (
         <div className="Inicio-container">
             <div className="container">
-                <h1>Bienvenidos a la pagina de Inicio</h1>
-                <p>Este es el espacio para explorar nuestro sitio Web</p>
+                <h1>Bienvenidos CarsPower</h1>
+                <p>SuperAutos Historicos</p>
             </div>  
         </div>
 
