@@ -29,7 +29,7 @@ const Contacto = () => {
                     </ul>
 
                     <h3 align="center">
-                      <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style={{ marginRight: '10px' }} /> 
+                      <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style={{ marginRight: '10px' }} alt=""/> 
                       Connect with me 🤝
                     </h3>
 
